@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+/* opening tab */
+
+header {
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height:80px;
+}
+
+header h4 {
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+/* Splash screen */
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:#161616;
+    transition: 1s;
+}
+
+.logoHeader {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+/* navigation */
+
+main{
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.findings ul{
+    list-style-type: none;
+    background-color: rgb(27, 27, 27);
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+}
+
+.findings a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    float:left;
+    
+}
+.findings a:hover{
+    background-color: rgb(90, 27, 25);
+}
+
